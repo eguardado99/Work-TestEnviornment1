@@ -1,12 +1,822 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test Environment 2</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+        <title>HARLEY-DAVIDSON</title>
+        
+        <style type="text/css">
+		
+            html { -webkit-text-size-adjust:none; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass{ width: 100%; }
+			.ExternalClass * {line-height: 100%;}
+			.ioslinksGrey a{color:#989898 !important;}
+			
+			body{
+				padding:0;
+				margin:0;
+				width:100%;
+				margin:0 auto;
+				background:#000000;
+			}
+			
+			/* CSS for hiding content in desktop/webmail clients */
+			.imghide { 	max-height: 0px; font-size: 0; display: none; overflow:hidden;}
+			
+			.lhfix { mso-line-height-rule: exactly !important;}	
+			
+			@media only screen and (max-width: 481px){
+				
+			/* Media query for displaying content in mobile email clients */
+   			.imghide { max-height: none !important; font-size: 12px !important; display: block !important; }
+				
+				
+			*[class].fl{float:left !important;}
+			*[class].fr{float:right !important;}
+			*[class].wrap{ display:block !important;}
+			*[class].hide{ display:none !important; }
+			*[class].hideflow {overflow-x:hidden !important;}
+			*[class].topborder {border-top:1px solid #2f2f2f !important;}
+			*[class].bottomborder {border-bottom:1px solid #2f2f2f !important;}
+			
+			/* HAMBURGER MENU */
+			
+			*[class].showme{ display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important;}
+
+*[id]#nav_handle { background:url(https://static.cdn.responsys.net/i2/responsysimages/content/hdm/header_icon_switch.png) 0 0 no-repeat; background-size:131px 100px !important; cursor: pointer; display: block !important; width:131px !important; height:50px !important; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+*[id]#nav_menu { width: background-color: #000000; max-height: 0; overflow: hidden; transition: max-height .25s linear; }
+*[id]#nav_menu a { display:block; padding:10px 10px 10px 10px; text-decoration:none; font-family: 'Open Sans', Helvetica, Arial; font-size:24px; }
+*[id]#nav_checkbox { display:none !important; }
+*[id]#nav_checkbox:checked + table #nav_handle { background:url(https://static.cdn.responsys.net/i2/responsysimages/content/hdm/header_icon_switch.png) 0 -50px no-repeat; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+*[id]#nav_checkbox:checked + table ~ #nav_menu { display:block !important; max-height: 580px !important; }
+.mobile_header_logo { position: absolute;
+    left: 5px;
+    top: 20px;
+}
+.form_div { position: absolute;
+    top: 0px;
+    z-index: 4;
+}
+
+			
+			/* WIDTHS */
+			
+			*[class].width5 {width:5px !important;}
+			*[class].width10 {width:10px !important;}
+			*[class].width40 {width:40px !important;}
+			*[class].width60 {width:60px !important;}
+			*[class].width80 {width:80px !important;}
+			*[class].width160 {width:160px !important;}
+			*[class].width240 {width:240px !important;}
+			*[class].width280 {width:280px !important;}
+			*[class].width296 {width:296px !important;}
+			*[class].width298 {width:298px !important;}
+			*[class].width308 {width:308px !important;}
+			*[class].width318 {width:318px !important;}		
+			*[class].width460 {width:460px !important;}
+			*[class].width480 {width:480px !important;}
+			*[class].width600 {width:600px !important;}	
+			*[class].width100p {width:100% !important;}		
+			
+			
+			/* HEIGHTS */
+			*[class].height15 {height:15px !important;}
+			*[class].height20 {height:20px !important;}
+			*[class].height22 {height:22px !important;}
+			*[class].height25 {height:25px !important;}
+			*[class].height28 {height:28px !important;}
+			*[class].height30 {height:30px !important;}
+			*[class].height38 {height:38px !important;}
+			*[class].height40 {height:40px !important;}
+			*[class].height60 {height:60px !important;}
+			*[class].height150 {height:150px !important;}
+			*[class].height160 {height:160px !important;}
+			*[class].height250 {height:250px !important;}
+			*[class].heightAuto {height: auto !important;}
+			
+			
+			/* MARGINS */
+			
+			*[class].center {text-align:center !important;}
+			*[class].centercenter {margin-left:auto!important; margin-right:auto !important; padding:0 !important;}
+			*[class].bottom10 {margin-bottom:10px !important;}
+			*[class].bottompad10 {padding-bottom:10px !important;}
+			*[class].toppad10 {padding-top:10px !important;}
+			*[class].bottompad35 {padding-bottom:35px !important;}
+			*[class].bottompad50 {padding-bottom:50px !important;}
+			*[class].toppad35 {padding-top:35px !important;}
+			*[class].bottompad40 {padding-bottom:40px !important;}
+			*[class].toppad40 {padding-top:40px !important;}
+			*[class].toppad50 {padding-top:50px !important;}
+			*[class].toppad60 {padding-top:60px !important;}
+			*[class].toppad70 {padding-top:70px !important;}
+			*[class].toppad80 {padding-top:80px !important;}
+			*[class].toppad100 {padding-top:100px !important;}
+			*[class].LR10 {padding-left:10px !important; padding-right:10px !important;}
+			*[class].leftpad6 {padding-left:6px !important;}
+			*[class].leftpad10 {padding-left:10px !important;}
+			*[class].leftpad0 {padding-left:0px !important;}
+			*[class].rightpad6 {padding-right:6px !important;}
+			*[class].rightpad10 {padding-right:10px !important;}
+			
+			
+			/* POSTITIONING */
+			
+			*[class].lefty {position:relative !important; left:-320px !important;}
+			
+			
+			/* FONTS */
+			
+			*[class].FS18 {font-size:18px !important;}
+			*[class].FS20 {font-size:20px !important;}
+			*[class].FS24 {font-size:24px !important;}
+
+			
+			/* LINE HEIGHTS */
+
+			*[class].LH20 {line-height:20px !important;}
+			*[class].LH24 {line-height:24px !important;}
+			*[class].LH27 {line-height:27px !important;}
+						
+				
+			}
+			
+			@media only screen and (max-width: 321px){
+			
+			
+			/* WIDTHS */
+			*[class].width300 {width:300px !important;}
+			*[class].width320 {width:320px !important;}		
+			
+			}</style>
+
+
 </head>
-<body>
-<div>Testing Website1</div>
+<body style="margin:0; padding:0;">
+   <!--[if gte mso 9]>
+   <style type="text/css">
+ span, td, table, div {
+   font-family:helvetica, arial, sans-serif !important;
+   }
+
+</style>
+  <![endif]-->
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+	<td align="center" valign="top" bgcolor="#000000">
+
+<!-- PREHEADER/HEADER  -->
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="width480 width320">
+<tr>
+<td align="center" valign="top" width="640" class="width480 width320">
+
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0" class="hide"><tr><td height="5" style="line-height:5px; font-size:0px;"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="5" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></td></tr></table><!--/margin -->
+
+<div style="font-family: 'Open Sans', Helvetica, Arial; color:#ffffff; font-size:10px; line-height:14px; font-weight:bold;" class="hide">
+<a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">The new 2019 lineup has people talking. Take a Look <span style="font-size:70%;">&#9658;</span></a> 
+</div>
+
+<div style="font-family: 'Open Sans', Helvetica, Arial; color:#989898; font-size:10px; line-height:14px; font-weight:normal;" class="hide">
+<a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSRC&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-dzsR-GbWkyNy3zZkwfD04LtpS2UnOYA-ZCGBiqL5P3dQvpmjzfiMFFJEkCEKsXRyYiSAJbXjIwoIZdPb6gdKOiNWEhvDp3e_ojwRnDDr4TFuGd3wF6V8M5MU3VFAg_q25Xt2XrxPVo_TzrRR5J-pEuu2-np51ZUt5ogsy-luJUPv-8-iVQxJ89luUhLfXqxA." style="color:#989898; font-weight:normal; text-decoration:none;">Web Version</a>
+</div>
+
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="10" style="line-height:0px; font-size:0px;"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="0" border="0" class="height20"/></td></tr></table><!--/margin -->
+
+<a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSRD&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." class="hide">
+<img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/hd_logo.png" width="128" height="100" alt="HARLEY-DAVIDSON MOTORCYCLES" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a>
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="10" style="line-height:0px; font-size:0px;"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="0" border="0" class="height20"/></td></tr></table><!--/margin -->
+
+
+</td>
+</tr>
+</table>
+
+<!-- nav -->
+
+
+<!-- nav -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="hide">
+  <tr>
+    <td height="1" bgcolor="#2f2f2f" style="line-height:1px; font-size:0px;">&nbsp;</td>
+  </tr>
+  <tr>
+  	<td height="58" align="center" valign="middle">
+    <div style="font-family: 'Noto Sans', Helvetica, Arial; color:#ffffff; font-size:14px; line-height:17px; font-weight:bold; text-transform:uppercase;">
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Motorcycles</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSAU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Learn to Ride</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Find A Dealer</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Shop</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSB&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Events</a>
+    </div>
+    
+    </td>
+  </tr>
+</table>
+<!--[if !mso]><!-->
+
+<!--[if !mso]><!-->
+<div class="showme" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; line-height:0px; visibility:hidden;">
+<table cellspacing="0" cellpadding="0" align="center" border="0">
+<tr>
+<a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSRD&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." class="mobile_header_logo">
+<img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/20180125_january_newsletter/images/hd_logo.png" width="128" height="100" alt="HARLEY-DAVIDSON MOTORCYCLES" border="0" style="display:block; color:#FFF; font-family: 'Noto Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a>
+<div style="position:absolute;left:35px;top:15px;z-index:4;" class="form_div">
+<td width="600" height="80" valign="top" align="right">
+<form><input
+ id="nav_checkbox"
+ type="checkbox"
+>
+<table width="" cellspacing="0" cellpadding="0" align="right" border="0">
+ <tr>
+  <td width="55" height="50" align="right" valign="top">
+
+   <label for="nav_checkbox" id="nav_handle"></label>
+  
+  </td>
+ </tr>
+</table>
+
+<div style="width:600px;" align="center" id="nav_menu">
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="50" style="line-height:0px; font-size:0px;"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="0" alt="" border="0" class=""/></td></tr></table><!--/margin -->
+ <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF;" class="bottompad50 toppad50 bottomborder topborder"><b class="">MOTORCYCLES</b></a>
+ <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSAU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF;" class="bottompad50 toppad50 bottomborder"><b class="">LEARN TO RIDE</b></a>
+ <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF;" class="bottompad50 toppad50 bottomborder"><b class="">FIND A DEALER</b></a>
+ <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF;" class="bottompad50 toppad50 bottomborder"><b class="">SHOP</b></a>
+ <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSB&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF;" class="bottompad50 toppad50 bottomborder"><b class="">EVENTS</b></a>
+</div><input
+ type="hidden"
+ name="__HIDDEN_FIELD_NAMES__"
+ value="__HIDDEN_FIELD_NAMES__"
+><input
+ type="hidden"
+ name="charset_"
+ value="UTF-8"
+>
+
+
+</form>
+</td></div>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+    <!--/nav --><!--<![endif]-->
+    <!--/nav -->
+    
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="hide">
+  <tr>
+    <td height="1" bgcolor="#2f2f2f" style="line-height:1px; font-size:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+<!-- /PREHEADER/HEADER -->
+
+
+<!-- margin -->
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td height="20"></td></tr></table>
+		<!--/margin -->
+
+<!-- ///////BODY CONTENT HERE///////// -->
+
+<table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTST&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/a1.jpg" width="600" height="111" alt="FREE[ER] TO CHANGE THE GAME" border="0" style="display:block; color:#000000; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+ 
+  <tr>
+    <td width="600" align="center" valign="middle" bgcolor="#FFFFFF">
+    
+  <div>
+  <table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle" style="padding-bottom:15px;">
+    <div style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:18px; line-height:24px; font-weight:100;">
+   Each motorcycle in the new 2019 lineup brings a <br>
+riding experience like no other. But don't just take <br>
+our word for it – see the bikes for yourself.</div>
+    
+    </td>
+  </tr>
+</table>
+  
+  </div>
+ 
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td align="center" background="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/0918_button_background.jpg" style="background-repeat:no-repeat;" bgcolor="#FFFFFF">
+    <!--[if gte mso 9]>
+  <v:rect fill="true" stroke="false" style="width:600px;height:60px;">
+    <v:fill type="tile" src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/0918_button_background.jpg" color="#2f2f2f" />
+    <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+    	<!-- cta -->
+         <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none; ">
+         <table border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ff6600">
+  <tr>
+  <td width="20"></td><td bgcolor="#ff6600" align="left" valign="middle" style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:20px; line-height:22px; font-weight:bold;"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:20px; line-height:20px; font-weight:bold;"> <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#000000; font-weight:bold; text-decoration:none;">SEE THE LINEUP</a></div></td>
+   <td width="30"></td>
+   <td><div style="height:60px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/cta_arrow.jpg" width="60" height="60" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+</table></a>
+           <!--/cta -->
+  </div>
+  <!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]-->
+    
+    
+    </td>
+   
+  </tr>
+  <tr>
+    <td>
+    <div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/a3.jpg" width="600" height="430" border="0" alt="HARLEY RIDER" style="display:block;  color:#000000; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+</table>
+
+
+<table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/b1.jpg" width="600" height="312" alt="A CANYON CARVING BEAST - Hot Bike Magazine" border="0" style="display:block; color:#000000; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+ 
+  
+  
+</table>
+		
+		<table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSB&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/c1.jpg" width="600" height="220" alt="STATE-OF-THE-ART ENHANCEMENTS - Baggers Magazine" border="0" style="display:block; color:#000000; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+ 
+  
+  
+</table>
+		
+		<table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTSD&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/d1.jpg" width="600" height="312" alt="A SOLID RUSH WITH PLENTY OF TRACTION - Cycle World" border="0" style="display:block; color:#000000; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+  </tr>
+ 
+  
+  
+</table>
+		
+		<!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="20" style="line-height:20px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin --> 
+		
+		 <!-- C01 - Secondary -->
+            
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+              <tr>
+                <td align="left"><table width="0" align="left" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left" valign="top" width="270"><table width="270" align="center" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTS&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/headline_1.jpg" width="270" height="185" alt="EXPERIENCE THE WORLD OF HARLEY-DAVIDSON" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                          </tr>
+                          <tr>
+                            <td><table align="left" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                 
+                                  <td align="left"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#ffffff; font-size:18px; line-height:24px; font-weight:100;">Download the all-new <br>
+Harley-Davidson&trade; App, built <br>
+with all the best tools to make <br>
+your next ride even better.</div></td>
+                                </tr>
+                              </table>
+                              </td>
+                          </tr>
+						  <tr>
+                            <td width="270" align="left">
+                              <div align="left"> 
+                                <!-- margin -->
+                                
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td height="20"></td>
+                                  </tr>
+                                </table>
+                                
+                                <!--/margin --> 
+                                <!-- cta --> 
+                               
+                    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none; ">
+                    <table border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+                      <tr>
+                        <td width="15"></td>
+                        <td bgcolor="#FFFFFF" align="left" valign="middle" style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:20px; line-height:22px; font-weight:bold;"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:18px; line-height:18px; font-weight:bold;"> <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#000000; font-weight:bold; text-decoration:none;">EXPLORE THE APP</a></div></td>
+                        <td width="10"></td>
+                        <td><div style="height:60px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/cta_arrow_white_blk.jpg" width="60" height="60" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                      </tr>
+                    </table>
+                    </a> 
+                                <!--/cta --> 
+                              </div></td>
+                          </tr>
+						  
+                        </table></td>
+                      <td width="330" valign="top"><table width="0" align="center" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/e1.jpg" width="330" height="424" alt="EXPLORE THE APP" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+            <!-- /C01 - Secondary --> 
+		
+		<!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="20" style="line-height:20px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin --> 
+            
+            <!-- C02 - Secondary -->
+            
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+              <tr>
+                <td width="330" valign="top"><table width="0" align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/HD_091318_NewsletterAnniversary.gif" width="330" height="424" border="0" alt="ANNIVERSARY HIGHLIGHTS" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                    </tr>
+                  </table></td>
+                <td align="center" valign="top"><table width="0" align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center" valign="top" width="270"><table width="270" align="center" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTB&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/headline_2.jpg" width="270" height="186" alt="THE RIDES. THE MEMORIES. THE CELEBRATION." border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                          </tr>
+                          <tr>
+                            <td align="right"><table width="270" align="center" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                 
+                                  <td align="right" width="270"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#ffffff; font-size:18px; line-height:24px; font-weight:100;">Relive all the biggest <br>
+moments from our 115th <br>
+Anniversary celebration<br>in Milwaukee.</div></td>
+                                </tr>
+                              </table>
+                              
+                              <!-- margin -->
+                              
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td height="20"></td>
+                                </tr>
+                              </table>
+                              
+                              <!--/margin -->
+                              
+                              <div> 
+                                
+                                <!-- cta --> 
+                                <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTC&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none; ">
+                                <table border="0" cellspacing="0" cellpadding="0" align="right" bgcolor="#FFFFFF">
+                      <tr>
+                        <td width="15"></td>
+                        <td bgcolor="#FFFFFF" align="left" valign="middle" style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:20px; line-height:22px; font-weight:bold;"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:18px; line-height:18px; font-weight:bold;"> <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTC&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#000000; font-weight:bold; text-decoration:none;">SEE HIGHLIGHTS</a></div></td>
+                        <td width="20"></td>
+                        <td><div style="height:60px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTC&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/cta_arrow_white_blk.jpg" width="60" height="60" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                      </tr>
+                    </table>
+                                </a> 
+                                <!--/cta --> 
+                              </div></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+            <!-- /C02 - Secondary --> 
+		
+		<!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="20" style="line-height:20px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin --> 
+		
+		 
+
+		<!-- B01 - Primary -->
+            
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+              <tr>
+                <td align="center"><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTTD&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/HD_091318_NewsletterGM.gif" width="600" height="505" alt="ONE LEGENDARY COLLECTION. ALL-NEW LOOKS. " border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <div> 
+                    
+                    <!-- cta --> 
+                    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none; ">
+                    <table border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+                      <tr>
+                        <td width="15"></td>
+                        <td bgcolor="#FFFFFF" align="left" valign="middle" style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:20px; line-height:22px; font-weight:bold;"><div style="font-family: 'Open Sans', Helvetica, Arial; color:#000000; font-size:18px; line-height:18px; font-weight:bold;"> <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#000000; font-weight:bold; text-decoration:none;">SHOP GARAGE COLLECTION </a></div></td>
+                        <td width="10"></td>
+                        <td><div style="height:60px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/cta_arrow_white_blk.jpg" width="60" height="60" alt="" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+                      </tr>
+                    </table>
+                    </a> 
+                    <!--/cta --> 
+                  </div></td>
+              </tr>
+              
+            </table>
+            
+            <!-- /B01 - Primary --> 
+            <!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="60" style="line-height:20px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin -->
+		
+		
+            <!-- D02 - Tertiary -->
+            
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+              <tr>
+                <td align="center"><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUS&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/banner_1.jpg" width="600" height="150" alt="$0 down and rates as low as 1.99% APR* on new 2017-2018 Harley-Davidson Softail and Touring models." border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+              </tr>
+            </table>
+            
+            <!-- /D02 - Tertiary --> 
+            <!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="60" style="line-height:60px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin --> 
+		
+		<!-- D02 - Tertiary -->
+            
+            <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+              <tr>
+                <td align="center"><div style="height:auto;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS."><img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/thank_you_banner.jpg" width="600" height="139" alt="Thank You to Our 115th Anniversary Sponsors: Zippo - Lyft - Bulleit Bourbon" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+              </tr>
+            </table>
+            
+            <!-- /D02 - Tertiary --> 
+            <!-- margin -->
+            
+            <table border="0" cellpadding="0" cellspacing="0" >
+              <tr>
+                <td height="40" style="line-height:40px; font-size:0px;">&nbsp;</td>
+              </tr>
+            </table>
+            
+            <!--/margin --> 
+<!--////////END: BODY CONTENT////////// -->
+
+
+
+<!-- FOOTER/SOCIAL -->
+
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="20"></td></tr></table><!--/margin -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="hide">
+  <tr>
+    <td height="1" bgcolor="#2f2f2f" style="line-height:1px; font-size:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+<!-- margin --><table border="0" cellpadding="0" cellspacing="0" class="hide"><tr><td height="20"></td></tr></table><!--/margin -->
+
+<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="200" align="center" valign="middle" class="wrap width600 height160 topborder">
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height28"></td></tr></table><!--/margin -->
+    
+   <div style="height:60px;" class="heightAuto"> <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSS&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/motorcycle.png" width="80" height="60" alt="MOTORCYCLES" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" class="width80 heightAuto" /></a></div>
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height25"></td></tr></table><!--/margin -->
+    <div style="font-family: 'Open Sans', Helvetica, Arial; color:#cccccc; font-size:14px; line-height:17px; font-weight:bold;" class="FS24 LH27">
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSS&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">MOTORCYCLES</a>
+    </div>
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;"></td></tr></table><!--/margin -->
+    
+    </td>
+    <td width="1" bgcolor="#000000" class="hide"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="1" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></td>
+    <td width="198" align="center" valign="middle" class="wrap width600 height160 topborder bottomborder">
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height28"></td></tr></table><!--/margin -->
+    
+    <div style="height:60px;" class="heightAuto"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/dealer.png" width="80" height="60" alt="FIND A DEALER" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" class="width80 heightAuto" /></a></div>
+    
+    <!-- margin -->
+    <table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height20"></td></tr></table>
+    <!--/margin -->
+     <div style="font-family: 'Open Sans', Helvetica, Arial; color:#FFFFFF; font-size:14px; line-height:17px; font-weight:bold;" class="FS24 LH27">
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">FIND A DEALER</a>
+    </div>
+    
+      <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:0px; font-size:0px;"></td></tr></table><!--/margin -->
+    </td>
+    <td width="1" bgcolor="#000000" class="hide"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="1" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></td>
+    <td width="200" align="center" valign="middle" class="wrap width600 height160 bottomborder">
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height28"></td></tr></table><!--/margin -->
+    <div style="height:60px;" class="heightAuto">
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSA&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/shop.png" width="80" height="60" alt="SHOP" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" class="width80 heightAuto" /></a></div>
+    
+    <!-- margin -->
+    <table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:15px; font-size:0px;" class="height20"></td></tr></table>
+    <!--/margin -->
+     <div style="font-family: 'Open Sans', Helvetica, Arial; color:#FFFFFF; font-size:14px; line-height:17px; font-weight:bold;" class="FS24 LH27">
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSSA&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">SHOP</a>
+    </div>
+    
+     <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15" style="line-height:0px; font-size:0px;"></td></tr></table><!--/margin -->
+    
+    </td>
+  </tr>
+</table>
+
+
+	<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="20"></td></tr></table><!--/margin -->
+
+
+<!-- Harley App -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="1" bgcolor="#2f2f2f" style="line-height:1px; font-size:0px;" class="hide">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="50"></td></tr></table><!--/margin -->
+    
+    
+    <div style="color:#FFFFFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:14px; line-height: 16px; text-align:center;">GET THE HARLEY-DAVIDSON&trade; APP</div>
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="25"></td></tr></table><!--/margin -->
+    
+    <table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top">
+    <div style="height:40px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/apple_download.png" width="130" height="40" alt="Download on the App Store" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+   
+    <td width="20" align="center" valign="top">&nbsp;</td>
+   
+    <td align="center" valign="top">
+    <div style="height:40px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRTUY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/google_download.png" width="130" height="40" alt="Get it on Google Play" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+    
+  </tr>
+</table>
+    
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="35"></td></tr></table><!--/margin -->
+    
+     <table width="120" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td align="center" valign="top" height="5">
+    <div style="height:5px;" class="lhfix">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/slice.jpg" width="120" height="5" border="0" style="display:block;" /></div></td>
+      </tr>
+</table>
+    
+    </td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#000000" style="line-height:1px; font-size:0px;">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+<!-- /Harley App -->
+
+	<!-- social -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+  <tr>
+    <td align="center" valign="middle">
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="40"></td></tr></table><!--/margin -->
+    
+    <table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top">
+    <div style="height:32px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUT&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/facebook.png" width="88" height="32" alt="Facebook" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+   
+    <td align="center" valign="top">
+    <div style="height:32px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUU&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/twitter.png" width="88" height="32" alt="Twitter" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+   
+    <td align="center" valign="top">
+    <div style="height:32px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUW&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/instagram.png" width="88" height="32" alt="Instagram" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+    
+    <td align="center" valign="top">
+    <div style="height:32px;"><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUY&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS.">
+    <img src="https://static.cdn.responsys.net/i2/responsysimages/hdm/contentlibrary/2018/2018_newsletter/201809_newsletter/images/youtube.png" width="88" height="32" alt="YouTube" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></a></div></td>
+    
+  </tr>
+</table>
+    
+    
+    <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="15"></td></tr></table><!--/margin -->
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td height="1" bgcolor="#000000" style="line-height:1px; font-size:0px;">&nbsp;</td>
+  </tr>
+</table>
+    <!--/social -->
+    
+   <!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="20"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="20" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></td></tr></table><!--/margin --> 
+    
+    <!-- footer -->
+    <table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top" width="580" style="padding-left:10px; padding-right:10px;">
+    <div style="font-family: 'Open Sans', Helvetica, Arial; color:#989898; font-size:10px; line-height:14px; font-weight:normal;">
+    To ensure delivery to your inbox, please add<br /><a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUA&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#ffffff; font-weight:bold; text-decoration:none;">Harley-Davidson@email.harley-davidson.com</a><br />to your address book or safe-senders list.
+    <br /><br />
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUB&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-zV62uelbuxgL9XHi-u7Hvsp9GXklFLTShb6lnoxjaSasfbej-wMD9EaOFG1Yv_lvJzsQPFBqZP_gHCR5ci5hayjc5gDGmvw." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">Unsubscribe</a> | 
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUC&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">Online Profile</a> | 
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSUD&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">Privacy Policy</a> | 
+    <a href="https://email.harley-davidson.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGkA5dINzfYErM3fb0zgIm6aiF0Mzg1pazaevA4Mb7Gog3zc6Kfa4AYa973B7wvWRoWfrTzcfVXtpKX%3DSWSDRSWR&_ei_=EjvGkADCNF3MJUPN86_MyIas6stACUn3aD7HC8mMnfKyVjONxlNqFYI3_1Ua9kph9oD23x78gDyJZ3YA0iASxbokQKuToacdIyfGIMYugKLtSum69dgLZU8G-OuJSVVJRsv4LxVmN0XfSRYj1hpjoTgdpQj_yUJKkJrsxKBM24g-PVS7cIKnXL2ByehN5WVCt6jLSJ-PCsQV1qCgwsFlmXqjmNcS." style="color:#FFFFFF; font-weight:bold; text-decoration:none;">Terms of Use</a>
+    <br /><br />
+		*Financing Offer available only on new 2018 and 2017 Harley-Davidson® Touring and Softail® and 2017 Dyna® motorcycle models financed through Eaglemark Savings Bank and is subject to credit approval. Not all applicants will qualify as the Annual Percentage Rate (APR) will vary based on the applicant's past credit performance and the term of the loan. Financing offer is available only for up to a 60 month term. For example, a 2018 Street Glide® Special motorcycle in Twisted Cherry with an MSRP of $26,499, no down payment and amount financed of $26,499, 60 month repayment term, and 1.99% APR results in monthly payments of $464.35. APR is calculated according to the simple interest method. Not valid in conjunction with other offers. Customer must take delivery by September 23, 2018. Other terms, conditions, and limitations may apply. Dealer participation may vary. Financing offer is subject to change or cancellation at any time. See your Harley-Davidson® Dealership for details.<br><br>
+    &copy; 2018 H-D or its Affiliates. All rights reserved.
+    <br />
+    Harley-Davidson and the Bar &amp; Shield logo are among the trademarks of H-D U.S.A., LLC.
+    <br /><br />All third-party trademarks are the property of their respective owners. <br><br>
+    <span class="ioslinksGrey">Harley-Davidson, 3700 W. Juneau Avenue, Milwaukee, WI 53208</span>
+    </div>
+    
+    
+    </td>
+  </tr>
+</table>
+    <!--/footer -->
+
+<!--/FOOTER/SOCIAL -->
+
+	<!-- margin --><table border="0" cellpadding="0" cellspacing="0"><tr><td height="30"><img src="https://static.cdn.responsys.net/i2/responsysimages/content/hdm/sp.png" width="1" height="30" border="0" style="display:block; color:#FFF; font-family: 'Open Sans', Helvetica, Arial; font-weight:bold; font-size:18px; text-align:center;" /></td></tr></table><!--/margin -->
+
+	</td>
+</tr>
+<tr>
+  <td align="center" valign="top" bgcolor="#000000">&nbsp;</td>
+</tr>
+</table>
+
 </body>
 </html>
